@@ -1,4 +1,7 @@
 bind ${BIND_ADDRESS}
 port ${PORT}
 appendonly yes
+protected-mode no
+masterauth $WDSyzx120801
+requirepass $WDSyzx120801
 dir /redis-data/${PORT}
