@@ -1,7 +1,6 @@
 port ${SENTINEL_PORT}
 protected-mode no
 sentinel monitor sentinel${PORT} 127.0.0.1 ${PORT} 2
-sentinel auth-pass sentinel${PORT} $WDSyzx120801  
-sentinel down-after-milliseconds sentinel${PORT} 5000
+sentinel auth-pass sentinel${PORT} qwer`123
 sentinel failover-timeout sentinel${PORT} 60000
 sentinel parallel-syncs sentinel${PORT} 1
